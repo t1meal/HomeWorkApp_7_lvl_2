@@ -34,6 +34,7 @@ public class AuthService {
             connection.close();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+
         }
     }
 
